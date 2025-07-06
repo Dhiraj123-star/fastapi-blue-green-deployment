@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     app: fastapi-app
-    version: blue  # Change this to 'green' during traffic switch
+    version: green  # Change to "green" when switching traffic
   ports:
     - protocol: TCP
       port: 80

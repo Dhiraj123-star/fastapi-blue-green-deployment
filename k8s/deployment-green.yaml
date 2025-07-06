@@ -17,6 +17,7 @@ spec:
       containers:
         - name: fastapi
           image: dhiraj918106/fastapi-blue-green-deployment:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
           resources:
