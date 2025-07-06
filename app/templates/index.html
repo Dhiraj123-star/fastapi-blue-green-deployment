@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FastAPI Blue-Green Deployment</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="{{ version }}">
+    <h1>🚀 FastAPI Deployment</h1>
+    <p>This is the currently active deployment:</p>
+    <div class="tag">{{ version | title }} Version</div>
+</body>
+</html>

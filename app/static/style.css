@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    text-align: center;
+    padding: 40px;
+}
+
+body.blue {
+    background-color: #d0e7ff;
+}
+
+body.green {
+    background-color: #d0ffd8;
+}
+
+.tag {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* default to blue */
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+body.green .tag {
+    background-color: #28a745;
+}
