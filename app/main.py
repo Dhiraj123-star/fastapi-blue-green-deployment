@@ -12,7 +12,7 @@ app.mount("/static", StaticFiles(directory="app/static"), name="static")
 templates = Jinja2Templates(directory="app/templates")
 
 # ✅ Update this per deployment
-CURRENT_DEPLOYMENT = "blue"
+CURRENT_DEPLOYMENT = "green"
 
 @app.get("/", response_class=HTMLResponse)
 def read_root(request: Request):
