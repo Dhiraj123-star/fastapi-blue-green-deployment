@@ -1,13 +1,5 @@
 # 🚀 fastapi-blue-green-deployment
 
-[![Docker Hub](https://img.shields.io/badge/DockerHub-dhiraj918106%2Ffastapi--blue--green--deployment-blue?logo=docker)](https://hub.docker.com/repository/docker/dhiraj918106/fastapi-blue-green-deployment)
-[![GitHub Actions](https://github.com/dhiraj918106/fastapi-blue-green-deployment/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/dhiraj918106/fastapi-blue-green-deployment/actions)
-[![Built with FastAPI](https://img.shields.io/badge/Built%20with-FastAPI-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-Deployed-326ce5?logo=kubernetes)](https://kubernetes.io/)
-[![License](https://img.shields.io/github/license/dhiraj918106/fastapi-blue-green-deployment)](LICENSE)
-
----
-
 A production-grade FastAPI application deployed using Docker and Kubernetes with a zero-downtime **blue-green deployment strategy**, enhanced with a minimal HTML/CSS UI to clearly show which version is live. Perfect for demonstrating real-world DevOps workflows in both local and cloud environments. 🌐🐳☸️
 
 ---
@@ -45,11 +37,11 @@ A production-grade FastAPI application deployed using Docker and Kubernetes with
 
 ## 🎯 Ideal For
 
-- Demonstrating CI/CD, containerization, and deployment strategies  
-- Showcasing DevOps skills in portfolios and interviews  
-- Learning how to build and deploy Python microservices on Kubernetes  
-- Practicing zero-downtime upgrade patterns with visual validation  
-- Automating build-and-publish workflows using GitHub Actions  
+- Demonstrating CI/CD, containerization, and deployment strategies
+- Showcasing DevOps skills in portfolios and interviews
+- Learning how to build and deploy Python microservices on Kubernetes
+- Practicing zero-downtime upgrade patterns with visual validation
+- Automating build-and-publish workflows using GitHub Actions
 
 ---
 
